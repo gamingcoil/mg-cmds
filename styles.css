@@ -1,0 +1,32 @@
+body {
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font: bold;
+    color: black;
+    text-align: center;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.logo {
+    position: fixed;
+    text-align: left;
+    bottom: 0px;
+    color: black;
+}
+.prefix:hover {
+    color: gray;
+}
+.first-cmd:hover {
+    color: gray;
+}
+.second-cmd:hover {
+    color: gray;
+}
+.therd-cmd:hover {
+    color: gray;
+}
+.forth-cmd:hover {
+    color: gray;
+}
