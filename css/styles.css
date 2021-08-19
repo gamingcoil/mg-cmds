@@ -6,7 +6,8 @@ body {
     text-align: center;
 }
 @keyframes spin {
-    100% {transform: rotateZ(360deg);}
+    50% {transform: rotateZ(180deg);}
+    50% {transform: rotateZ(180deg);}
 }
 a, a:hover, a:focus, a:active {
     text-decoration: none;
