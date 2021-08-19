@@ -5,6 +5,9 @@ body {
     color: black;
     text-align: center;
 }
+@keyframes spin{
+    100%{transform: rotateZ(360deg);}
+}
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
@@ -18,8 +21,9 @@ p.msgsuc {
     background-color: greenyellow;
 }
 .logo:hover {
-    width: 40;
-    height: 40;
+    animation: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 .logo {
     position: fixed;
