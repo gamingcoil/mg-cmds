@@ -22,7 +22,7 @@ p.msgsuc {
 }
 .logo:hover {
     animation: spin;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 .logo {
