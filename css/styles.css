@@ -16,6 +16,10 @@ p.msgsuc {
     border-width: 0.1mm;
     background-color: greenyellow;
 }
+.logo:hover {
+    width: 40;
+    height: 40;
+}
 .logo {
     position: fixed;
     text-align: left;
