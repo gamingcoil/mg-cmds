@@ -12,7 +12,10 @@ function copyText(htmlElement)
     inputElement.select();
     document.execCommand('copy');
     inputElement.parentNode.removeChild(inputElement);
-
+    let msg = document.createElement('p');
+    document.body.appendChild(msg);
+    msg.innerHTML = 'הפקודה הועתקה';
+    msg.className = 'msgsuc'
 }
 
 document.querySelector('#btnCopy').onclick = 
