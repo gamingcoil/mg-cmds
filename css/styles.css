@@ -22,11 +22,11 @@ p.msgsuc {
     border-width: 0.1mm;
     background-color: greenyellow;
 }
-/* .logo:hover {
+.logo:hover {
     animation: spin;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
-} */
+}
 .logo {
     position: fixed;
     text-align: left;
