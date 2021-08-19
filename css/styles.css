@@ -5,27 +5,32 @@ body {
     color: black;
     text-align: center;
 }
+button {
+    background: center black;
+    color: white;
+    border: thin;
+    width: 80px;
+    height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+}
 @keyframes spin {
-    50% {transform: rotateZ(180deg);}
-    50% {transform: rotateZ(180deg);}
+    100% {transform: rotateZ(360deg);}
 }
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
 p.msgsuc {
-    text-align: center;
-    width: 100px;
-    height: 100px;
+    text-align:center;
+    width: 150px;
+    height: 50px;
     border: gray solid;
     border-radius: 10px;
     border-width: 0.1mm;
     background-color: greenyellow;
-}
-.logo:hover {
-    animation: spin;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
+    flex: auto;
+    display: block;
 }
 .logo {
     position: fixed;

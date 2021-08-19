@@ -12,14 +12,7 @@ function copyText(htmlElement)
     inputElement.select();
     document.execCommand('copy');
     inputElement.parentNode.removeChild(inputElement);
-    let msg = document.createElement('p');
-    document.body.appendChild(msg);
+    const msg = document.querySelector('#msg-suc');
     msg.innerHTML = 'הפקודה הועתקה';
     msg.className = 'msgsuc'
-}
-
-document.querySelector('#btnCopy').onclick = 
-function ()
-{
-    copyText(document.querySelector('#text-to-copy'));
 }
