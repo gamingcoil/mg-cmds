@@ -10,8 +10,8 @@ a, a:hover, a:focus, a:active {
     color: inherit;
 }
 p.msgsuc {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border: gray solid;
     border-radius: 10px;
     border-width: 0.1mm;
