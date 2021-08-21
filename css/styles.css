@@ -27,6 +27,7 @@ p.msgsuc {
     border-width: 0.1mm;
     background-color: greenyellow;
     justify-content: center;
+    margin-bottom: 200px;
 }
 .logo {
     position: fixed;
