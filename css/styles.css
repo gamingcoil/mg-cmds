@@ -18,7 +18,7 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
-.msg-div {
+p.msgsuc {
     text-align:center;
     width: 150px;
     height: 50px;
